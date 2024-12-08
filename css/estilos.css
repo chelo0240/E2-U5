@@ -1,0 +1,56 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #2d3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+nav ul li a.current {
+    font-weight: bold;
+}
+
+/* Footer */
+footer.pie {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
